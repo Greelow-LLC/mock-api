@@ -20,9 +20,12 @@ Esto crea el archivo `data.db` con:
 - 5 items de ejemplo
 - 5 ratings de ejemplo
 
-**Credenciales de prueba:**
-- Email: `demo@example.com`
-- Password: `demo123`
+**Usuarios de prueba:**
+
+| Email | Password | Nombre |
+|-------|----------|--------|
+| `demo@example.com` | `demo123` | Usuario Demo |
+| `test@example.com` | `test123` | Test User |
 
 ## Levantar el servidor
 
