@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx index.ts",
     "seed": "tsx seed.ts",
-    "start": "node --import tsx index.ts"
+    "start": "node --import tsx index.ts",
+    "test": "tsx test.ts"
   },
   "dependencies": {
     "better-sqlite3": "^11.0.0",

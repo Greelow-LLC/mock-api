@@ -27,6 +27,8 @@ Esto crea el archivo `data.db` con:
 | `demo@example.com` | `demo123` | Usuario Demo |
 | `test@example.com` | `test123` | Test User |
 
+> **Tip:** Si queres resetear la base de datos y volver a los datos iniciales, simplemente corré `npm run seed` de nuevo.
+
 ## Levantar el servidor
 
 ```bash
@@ -34,6 +36,16 @@ npm run dev
 ```
 
 El servidor corre en `http://localhost:3000`.
+
+## Tests
+
+Para verificar que la API funciona correctamente, con el servidor corriendo en `localhost:3000`:
+
+```bash
+npm run test
+```
+
+Esto ejecuta 28 tests que cubren todos los endpoints, validaciones y permisos.
 
 ---
 
